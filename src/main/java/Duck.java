@@ -5,6 +5,11 @@ public class Duck extends Bird {
     }
 
     @Override
+    public void fly() {
+        System.out.println("Duck is flying");
+    }
+
+    @Override
     public String toString() {
         return "I'm a Duck";
     }
